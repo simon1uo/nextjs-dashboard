@@ -10,6 +10,11 @@ import {
 } from '@/app/ui/skeletons';
 
 import CardWrapper from '@/app/ui/dashboard/cards';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Overview',
+};
 
 export default async function Page() {
   return (
